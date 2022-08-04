@@ -12,5 +12,21 @@ body {
 }
 
 .col-4 {
-    background-color: #500700;
+    background-color: #C7501B;
+    padding:10px
+ 
+}
+.city {
+    font-size:60px;
+}
+.forecast-day {
+    font-size:30px;
+   
+}
+.forecast {
+    font-size: 40px;
+    line-height: 2;
+}
+.fa-solid {
+    padding-left: 15px;
 }
