@@ -19,10 +19,30 @@ body {
 .city {
     font-size:60px;
 }
+.temperature {
+    font-size: 35px;
+}
 .overview-description{
     list-style: none;
     font-size:20px;
     padding: 0;
+}
+.current-weather{
+    font-size:20px;
+    padding: 0;
+}
+.clearfix{
+    text-align: center;
+}
+.float-left{
+    text-align: center;
+}
+.humidity-wind{
+    list-style: none;
+    font-size:20px;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 2;
 }
 .forecast-day {
     font-size:30px;
