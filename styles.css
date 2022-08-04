@@ -1,3 +1,17 @@
+body {
+    font-family: arial, sans-serif;
+    color: white;
+  }
+.wrapper{
+    margin: 30px auto;
+}
+.app {
+    padding: 20px;    
+    border: 1px solid brown;
+}
 h1 {
     font-size: 300 px;
+}
+.col-4 {
+    background-color: #500700;
 }
