@@ -27,6 +27,9 @@ body {
     font-size:20px;
     padding: 0;
 }
+.description:first-letter {
+    text-transform: capitalize;
+}
 .current-weather{
     font-size:20px;
     padding: 0;
