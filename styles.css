@@ -34,6 +34,11 @@ body {
     font-size:20px;
     padding: 0;
 }
+.weather-temperature .active {
+    color: black;
+    cursor:default;
+    text-decoration: none;
+}
 .clearfix{
     text-align: center;
 }
