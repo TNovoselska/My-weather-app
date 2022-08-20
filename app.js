@@ -81,7 +81,7 @@ function showWeather(response) {
     celciusTemperature = response.data.main.temp;
   let currentTemp = Math.round(celciusTemperature);
   let tempElement = document.querySelector("#temperature");
-  tempElement.innerHTML = `${currentTemp}°`;
+  tempElement.innerHTML = `${currentTemp}`;
   document.querySelector("#city").innerHTML = response.data.name;
   let iconElement=document.querySelector("#icon");
   iconElement.setAttribute(
