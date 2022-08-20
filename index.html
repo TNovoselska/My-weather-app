@@ -50,93 +50,66 @@
      />
       </div>
           <div class="col-3">
-            <button type="button" class="btn btn-primary" id = "submit">Search</button>
+            <button type="button" class="btn btn-primary w-100" id = "submit">Search</button>
             </div>
           <div class="col-3">
-            <button type="button" class="btn btn-primary" id = "current-btn">Current</button>
+            <button type="button" class="btn btn-primary w-100" id = "current-btn">Current</button>
             </div>
           </div>
  </form>
-                              
-               <div class="overview">
-                 <h1 id="city" class="city">Kyiv</h1>
-                 <ul class="overview-description">
-                  <li>Last updated: <span id="date"></span></li>
-                  <li id="description" class="description">Cloudy</li>
-                </ul>
-               </div>
-
-               <div class="row current-weather">
-                <div class="col-6">
-                  
-                  <div class="clearfix weather-temperature">
-                    <img src="" alt="Clear" id="icon" class="float-left" />
-                    
-                  
-                  <div class="float-left">
-                    <strong id="temperature" class="temperature">20</strong>
-                    <span class="units"> °C</span>
-                  </div>
-                </div>
-                </div>
-                <div class="col-6">
-                  <ul class="humidity-wind">
-                    <li>Humidity: <span id="humidity"></span>%</li>
-                    <li>Wind: <span id="wind"></span> m/h</li>
-                  </ul>
-                </div>
-              </div>
-               
-                 </div>
-                 </div>
-              </div>
-            </div>
+ <div class="overview">
+  <div class="row">
+    <div class="col-7">
+   <h1 id="city" class="city">Kyiv</h1>
+  </div>
+  <div class="col-5">
+   <div class="overview-description">
+    <span id="date"></span>,
+    
+    <p id="description" class="description">Cloudy</p>
   
+    <div class="humidity-wind">
+      <p class="humidity">Humidity: <span id="humidity"></span>%</p>
+      <p class="wind">Wind: <span id="wind"></span> m/h</p>
+    </div>
+  
+   </div>
+</div>
+ </div>
+
+ <div class="row current-weather">
+  <div class="col-7">
+    
+    <div class="clearfix weather-temperature">
+      <img src="" alt="Clear" id="icon" class="float-left" width="130"/>
+      
+    
+    
+  </div>
+  </div>
+  <div class="col-5 current-temp">
+    <p></p>
+      <strong id="temperature" class="temperature">20</strong>
+      <span class="units"> °C </span>
+    
   </div>
 </div>
+ 
+   </div>
+   </div>
+</div>
+
+<div class="row forecast" id = "forecast"> </div>
+</div>
 
 
-  <div class="col-4 forecast">
-    <div class="row">
-        <div class="col-3"><i class="fa-solid fa-cloud-sun"> </i></div>
-        <div class="col-3"><span class="forecast-temp"> 20°</span></div>
-        <div class="col-6"> <span class="forecast-day"> Today</span></div>
-      </div>
-      <div class="row">
-        <div class="col-3"><i class="fa-solid fa-cloud-sun"> </i></div>
-        <div class="col-3"><span class="forecast-temp"> 21°</span></div>
-        <div class="col-6"> <span class="forecast-day"> Tuesday</span></div>
-      </div>
-      <div class="row">
-        <div class="col-3"><i class="fa-solid fa-sun"> </i></div>
-        <div class="col-3"><span class="forecast-temp"> 22°</span></div>
-        <div class="col-6"> <span class="forecast-day"> Wednesday</span></div>
-      </div>
-      <div class="row">
-        <div class="col-3"><i class="fa-solid fa-sun"> </i></div>
-        <div class="col-3"><span class="forecast-temp"> 20°</span></div>
-        <div class="col-6"> <span class="forecast-day"> Thursday</span></div>
-      </div>
-      <div class="row">
-        <div class="col-3"><i class="fa-solid fa-cloud"> </i></div>
-        <div class="col-3"><span class="forecast-temp"> 18°</span></div>
-        <div class="col-6"> <span class="forecast-day"> Friday</span></div>
-      </div>
-      <div class="row">
-        <div class="col-3"><i class="fa-solid fa-cloud"> </i></div>
-        <div class="col-3"><span class="forecast-temp"> 19°</span></div>
-        <div class="col-6"> <span class="forecast-day"> Saturday</span></div>
-      </div>
-      <div class="row">
-        <div class="col-3"><i class="fa-solid fa-cloud-sun"> </i></div>
-        <div class="col-3"><span class="forecast-temp"> 20°</span></div>
-        <div class="col-6"> <span class="forecast-day"> Sunday</span></div>
-      </div>
-   
-  </div>
+
+
+
 </div>
 
 </div>
+
   <small><a href="https://github.com/TNovoselska/My-weather-app" target="_blank">Open-source code</a> <span class="my-name">by Tamara Novoselska</span></small> 
 </div>
   </div>
